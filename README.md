@@ -17,12 +17,12 @@ This is a simple command-line contact management system written in C++. It allow
 1. **Compile the Code:**
    - Compile the code using a C++ compiler (e.g., g++).
    ```bash
-   g++ -o Addressbook main.cpp
+   g++ -std=c++17 -o addressbook main.cpp
    
 2. **Run the Executable::**
    - Run the compiled executable.
    ```bash
-   ./Addressbook
+   ./addressbook
 
 3. **Use the Contact Management System::**
    - Follow the on-screen instructions to perform actions such as adding contacts, searching by mobile number, searching by name, and exiting the program.
