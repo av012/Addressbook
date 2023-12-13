@@ -12,22 +12,36 @@ This is a simple command-line contact management system written in C++. It allow
 
 - **Persistence:** Contacts are stored in a dedicated directory, ensuring that they persist across different program sessions.
 
+
+
+## Assumptions
+
+- **While adding Contacts the username should be unique along with the phone number** 
+
+- **Mobile number must be exactly 10 digits only**
+
+- **First Name and Last Name should not be more than 8 characters**
+
+- **Address should not be an empty string**
+
+
 ## How to Use
 
-1. **Compile the Code:**
-   - Compile the code using a C++ compiler (e.g., g++).
+1. **Install XCode IDE:**
+   - Compile the code using XCode.
    ```bash
-   g++ -std=c++17 -o addressbook main.cpp
-   
-2. **Run the Executable::**
-   - Run the compiled executable.
-   ```bash
-   ./addressbook
+      xcode-select-install
 
+2. **Build & run the Code:**
+   - Open the 'xcodeproj' file in Xcode and Run the application. (cmd + R).
+
+   ```bash
+   Addressbook.xcodeproj
+   
 3. **Use the Contact Management System::**
-   - Follow the on-screen instructions to perform actions such as adding contacts, searching by mobile number, searching by name, and exiting the program.
+   - Follow the on-screen instructions & assumptions to perform actions such as adding contacts, searching by mobile number, searching by name, and exiting the program.
 
 ## Dependencies
 - C++ Standard Library
-- '<filesystem>' header for filesystem operations
+- Headers for filesystem operations
   
